@@ -1,24 +1,20 @@
 <template>
-    <div class="container">
-        <div>
-            <transition name="fade">
-                <router-view></router-view>
-            </transition>
-        </div>
+    <div id="app">
+        <axontitle></axontitle>
+        <h1>wtf</h1>
     </div>
 </template>
 
-<style>
-    .fade-enter-active, .fade-leave-active {
-      transition: opacity .5s
-    }
-    .fade-enter, .fade-leave-active {
-      opacity: 0
-    }
-</style>
-
 <script>
-
-    export default{
+   import  Axontitle from './components/Axontitle.vue'
+    export default {
+        name: 'App',
+        components: {
+            Axontitle
+        }
     }
 </script>
+
+<style>
+
+</style>
