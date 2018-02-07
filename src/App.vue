@@ -1,7 +1,7 @@
 <template>
     <div id="app">
         <axontitle></axontitle>
-        <h1>wtf</h1>
+        
     </div>
 </template>
 
