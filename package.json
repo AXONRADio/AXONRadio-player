@@ -28,9 +28,12 @@
     "webpack-dev-server": "^2.6.1"
   },
   "dependencies": {
+    "bcrypt": "^1.0.3",
     "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.1",
     "cors": "^2.8.4",
     "express": "^4.16.2",
+    "express-session": "^1.15.6",
     "mongoose": "^4.13.9",
     "vue-youtube-embed": "^2.1.3"
   }
